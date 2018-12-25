@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Javi.MediaInfo", "Javi.MediaInfo\Javi.MediaInfo.csproj", "{8114B4FC-DE99-48DD-8976-1DC29E8AFEE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solutions Items", "Solutions Items", "{BCB18591-0736-4783-BDC1-23C750415FCB}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+		release-nuget-package.cmd = release-nuget-package.cmd
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8114B4FC-DE99-48DD-8976-1DC29E8AFEE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8114B4FC-DE99-48DD-8976-1DC29E8AFEE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8114B4FC-DE99-48DD-8976-1DC29E8AFEE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8114B4FC-DE99-48DD-8976-1DC29E8AFEE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79952843-03F6-45DC-889A-184DBBECB9FC}
+	EndGlobalSection
+EndGlobal
