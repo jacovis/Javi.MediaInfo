@@ -63,5 +63,4 @@ This project is licensed under the [MIT License](https://github.com/jacovis/Javi
 
 ## Acknowledgments
 
-<br>
 Sample video courtesy of https://sample-videos.com/

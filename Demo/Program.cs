@@ -74,10 +74,6 @@ namespace Demo
             {
                 return "null";
             }
-            else if (obj is DateTime)
-            {
-                return ((DateTime)obj).ToString();
-            }
             else if (obj is ValueType || obj is string)
             {
                 return obj.ToString();
