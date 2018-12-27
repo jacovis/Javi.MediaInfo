@@ -1,4 +1,4 @@
-# <img align="center" src="./PackageIcon.png">  Javi.FFmpeg
+# <img align="center" src="./PackageIcon.png">  Javi.MediaInfo
 
 This [.NET standard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard) package 
 provides a wrapper for the [MediaInfo](https://mediaarea.net/en/MediaInfo) library of functions.<br>
