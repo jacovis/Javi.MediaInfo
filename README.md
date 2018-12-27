@@ -36,6 +36,22 @@ This package uses dynamic DLL loading, so applications using this package still 
 
 ## Usage
 
+Add to usings:
+
+    using Javi.MediaInfo
+
+Instantiate an object of class MediaInfo, providing the full path to the local copy of the MediaInfo.dll.
+
+    MediaInfo MediaInfo = new MediaInfo(MediaInfoDLLFullName);
+
+Call the method that calls into the MediaInfo.dll to update all properties.
+
+    MediaInfo.ReadMediaInformation(@"Sample.mp4");
+
+Retrieve technical and tag data from the video or audio file:
+
+    var containerFormat = MediaInfo.General.Format;
+
 ### Demo application
 
 A C# dotnet core console demo application is available which shows the usage of the package. Code from this demo should not be used in production code,
