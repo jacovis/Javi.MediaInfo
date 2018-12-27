@@ -15,6 +15,7 @@ is as simple as making a method call and then examining the properties of this c
 ## Features
 - Wraps the MediaInfo.dll 
 - Provides properties for almost all information available using the MediaInfo.dll
+- Targets .NET Standard 2.0
     
 ## Getting Started
 
