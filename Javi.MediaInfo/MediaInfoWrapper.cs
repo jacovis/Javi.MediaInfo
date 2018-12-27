@@ -63,8 +63,7 @@ namespace Javi.MediaInfo
     /// <summary>
     /// Wrapper for MediaInfo library dll from https://mediaarea.net/en/MediaInfo/Download/Windows
     /// This DLL is provided in 32 and 64 bit versions. 
-    /// The code in this class uses dynamic DLL loading to load the correct version and call functions in it. 
-    /// Any application using this assembly should still be able to be build using AnyCPU. 
+    /// The code in this class uses dynamic DLL loading, any application using this assembly should still be able to be build using AnyCPU or x86 or x64. 
     /// Code in this class is based on class MediaInfoDLL.cs in the mentioned download in source file Developers\Project\MSCS2010\Example\MediaInfoDLL.cs.
     /// See code in the example in the download in folder Developers\Project\MSCS2010\Example\HowToUse_Dll.cs for samples of usage of the media info lib functions.
     /// See ActiveX.cls in the MediaInfo source in download libmediainfo_18.05_AllInclusive.zip for descriptions of the various functions in MediaInfo.dll.
