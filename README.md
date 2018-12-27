@@ -54,8 +54,8 @@ Retrieve technical and tag data from the video or audio file:
 
 ### Demo application
 
-A C# dotnet core console demo application is available which shows the usage of the package. Code from this demo should not be used in production code,
-the code is merely to demonstrate the usage of this package.
+A C# dotnet core console [demo application](https://github.com/jacovis/Javi.MediaInfo/tree/master/Demo) is available which shows the usage of the package. 
+Code from this demo should not be used in production code, the code is merely to demonstrate the usage of this package.
     
 ## License
 
