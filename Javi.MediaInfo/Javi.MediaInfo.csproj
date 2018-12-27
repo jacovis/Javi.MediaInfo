@@ -6,14 +6,14 @@
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
         <Title>MediaInfo wrapper</Title>
         <PackageId>Javi.MediaInfo</PackageId>
-        <PackageDescription>A wrapper for the MediaInfo library.</PackageDescription>
+        <PackageDescription>A dot .NET standard wrapper for the MediaInfo library.</PackageDescription>
         <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
         <PackageProjectUrl>https://github.com/jacovis/Javi.MediaInfo</PackageProjectUrl>
         <RepositoryUrl>https://github.com/jacovis/Javi.MediaInfo</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageIconUrl>https://github.com/jacovis/Javi.MediaInfo/raw/master/PackageIcon.png</PackageIconUrl>
         <PackageTags>mediainfo;wrapper;wrap;audio;video;mp3;wma;mkv;mp4</PackageTags>
-        <Version>1.0.0</Version>
+        <Version>1.0.1</Version>
         <Authors>Jaco Vis</Authors>
         <Company>JaVi</Company>
         <Description>MediaInfo wrapper</Description>
