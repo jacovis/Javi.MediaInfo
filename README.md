@@ -31,6 +31,8 @@ Alternatively search on [NuGet Javi.MediaInfo](https://www.nuget.org/packages/Ja
 
 Since this package is only a wrapper for the MediaInfo dll, a copy of the dll must be available. Official releases can
 be downloaded using links from the [MediaInfo download site](https://mediaarea.net/en/MediaInfo/Download).<br>
+The MediaInfo.dll is available in 32 and 64 bit versions, choose the correct version for your application and operating system.<br>
+This package uses dynamic DLL loading, so applications using this package still have the freedom to choose their target as appropriate.
 
 ## Usage
 
