@@ -1,6 +1,6 @@
 # <img align="center" src="./PackageIcon.png">  Javi.MediaInfo
 
-This [.NET standard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard) package 
+This [.NET Standard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard) package 
 provides a wrapper for the [MediaInfo](https://mediaarea.net/en/MediaInfo) library of functions.<br>
 MediaInfo is a convenient unified display of the most relevant technical and tag data for video and audio files.<br>
 With this package, using the MediaInfo library from your application and retrieving this data for video and audio files 
@@ -32,7 +32,8 @@ Alternatively search on [NuGet Javi.MediaInfo](https://www.nuget.org/packages/Ja
 Since this package is only a wrapper for the MediaInfo dll, a copy of the dll must be available. Official releases can
 be downloaded using links from the [MediaInfo download site](https://mediaarea.net/en/MediaInfo/Download).<br>
 The MediaInfo.dll is available in 32 and 64 bit versions, choose the correct version for your application and operating system.<br>
-This package uses dynamic DLL loading, so applications using this package still have the freedom to choose their target as appropriate.
+This package uses dynamic DLL loading, so applications using this package still have the freedom to choose their target as appropriate,
+even AnyCPU remains an option.
 
 ## Usage
 
@@ -54,7 +55,7 @@ Retrieve technical and tag data from the video or audio file:
 
 ### Demo application
 
-A C# dotnet core console [demo application](https://github.com/jacovis/Javi.MediaInfo/tree/master/Demo) is available which shows the usage of the package. 
+A C# .NET Core [console demo application](https://github.com/jacovis/Javi.MediaInfo/tree/master/Demo) is available which shows the usage of the package. 
 Code from this demo should not be used in production code, the code is merely to demonstrate the usage of this package.
     
 ## License
