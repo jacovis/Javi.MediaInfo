@@ -7,7 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Javi.MediaInfo", "Javi.Medi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solutions Items", "Solutions Items", "{BCB18591-0736-4783-BDC1-23C750415FCB}"
 	ProjectSection(SolutionItems) = preProject
-		LICENSE.md = LICENSE.md
 		README.md = README.md
 		release-nuget-package.cmd = release-nuget-package.cmd
 	EndProjectSection
