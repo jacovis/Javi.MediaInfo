@@ -1,0 +1,136 @@
+
+Information
+----------------------
+General
+Complete name                            : Sample.mp4
+Format                                   : MPEG-4
+Format profile                           : Base Media
+Codec ID                                 : isom (isom/iso2/avc1/mp41)
+File size                                : 5.01 MiB
+Duration                                 : 29 s 568 ms
+Overall bit rate mode                    : Variable
+Overall bit rate                         : 1 422 kb/s
+Encoded date                             : UTC 1970-01-01 00:00:00
+Tagged date                              : UTC 2014-07-19 17:22:11
+Writing application                      : Lavf53.24.2
+
+Video
+ID                                       : 1
+Format                                   : AVC
+Format/Info                              : Advanced Video Codec
+Format profile                           : Main@L3.1
+Format settings                          : CABAC / 1 Ref Frames
+Format settings, CABAC                   : Yes
+Format settings, ReFrames                : 1 frame
+Codec ID                                 : avc1
+Codec ID/Info                            : Advanced Video Coding
+Duration                                 : 29 s 560 ms
+Bit rate                                 : 1 033 kb/s
+Width                                    : 1 280 pixels
+Height                                   : 720 pixels
+Display aspect ratio                     : 16:9
+Frame rate mode                          : Constant
+Frame rate                               : 25.000 FPS
+Color space                              : YUV
+Chroma subsampling                       : 4:2:0
+Bit depth                                : 8 bits
+Scan type                                : Progressive
+Bits/(Pixel*Frame)                       : 0.045
+Stream size                              : 3.64 MiB (73%)
+Encoded date                             : UTC 1970-01-01 00:00:00
+Tagged date                              : UTC 1970-01-01 00:00:00
+Codec configuration box                  : avcC
+
+Audio
+ID                                       : 2
+Format                                   : AAC LC
+Format/Info                              : Advanced Audio Codec Low Complexity
+Codec ID                                 : mp4a-40-2
+Duration                                 : 29 s 568 ms
+Bit rate mode                            : Variable
+Bit rate                                 : 384 kb/s
+Maximum bit rate                         : 417 kb/s
+Channel(s)                               : 6 channels
+Channel layout                           : C L R Ls Rs LFE
+Sampling rate                            : 48.0 kHz
+Frame rate                               : 46.875 FPS (1024 SPF)
+Compression mode                         : Lossy
+Stream size                              : 1.35 MiB (27%)
+Default                                  : Yes
+Alternate group                          : 1
+Encoded date                             : UTC 1970-01-01 00:00:00
+Tagged date                              : UTC 1970-01-01 00:00:00
+
+
+
+General
+----------------------
+Format=MPEG-4
+FormatVersion=
+Duration=00:00:29.5680000
+OverallBitRate=1421504
+OverallBitRateAsString=1 422 kb/s
+EncodedDate=01-01-1970 00:00:00
+WritingApplication=Lavf53.24.2
+WritingLibrary=
+VideoStreams=1
+AudioStreams=1
+TextStreams=0
+
+Video stream 0
+----------------------
+Id=1
+Format=AVC
+FormatInfo=Advanced Video Codec
+FormatProfile=Main@L3.1
+FormatSettings=CABAC / 1 Ref Frames
+CodecId=avc1
+CodecIdString=
+CodecIdInfo=Advanced Video Coding
+CodecIdHint=
+CodecIdURL=
+CodecIdDescription=
+Duration=00:00:29.5600000
+BitRateModeAbbreviation=
+BitRateMode=
+BitRate=1032960
+BitRateString=1 033 kb/s
+Width=1280
+WidthString=1 280 pixels
+Height=720
+HeightString=720 pixels
+DisplayAspectRatio=1,778
+DisplayAspectRatioString=16:9
+FrameRate=25
+FrameRateString=25.000 FPS
+FrameRateModeAbbreviation=CFR
+FrameRateMode=Constant
+ColorSpace=YUV
+ScanType=Progressive
+StreamSize=3816789
+Default=False
+Forced=False
+
+Audio stream 0
+----------------------
+Id=2
+Format=AAC
+FormatInfo=Advanced Audio Codec Low Complexity
+FormatCommercial=Advanced Audio Codec Low Complexity
+CodecId=mp4a-40-2
+Duration=00:00:29.5680000
+BitRate=384000
+BitRateString=384 kb/s
+BitRateModeAbbreviation=VBR
+BitRateMode=Variable
+Channels=6
+ChannelPositions=Front: L C R, Side: L R, LFE
+SamplingRate=48000
+FrameRate=46,875
+FrameCount=1386
+CompressionMode=Lossy
+StreamSize=1419118
+LanguageCode=
+Language=
+Default=True
+Forced=False
