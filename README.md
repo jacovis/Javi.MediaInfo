@@ -1,3 +1,7 @@
+[![NuGet](https://img.shields.io/nuget/v/Javi.MediaInfo.svg)](https://www.nuget.org/packages/Javi.MediaInfo/) 
+
+# 
+
 # <img align="center" src="./PackageIcon.png">  Javi.MediaInfo
 
 This [.NET Standard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard) package 
