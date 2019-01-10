@@ -14,14 +14,6 @@ namespace Demo
             MediaInfo.ReadMediaInformation(@"Sample.mp4");
 
             Console.WriteLine("");
-            Console.WriteLine("Information");
-            Console.WriteLine("----------------------");
-            foreach (var s in MediaInfo.Information)
-            {
-                Console.WriteLine(s);
-            }
-
-            Console.WriteLine("");
             Console.WriteLine("General");
             Console.WriteLine("----------------------");
             OutputPropertyValues(MediaInfo.General);
@@ -48,6 +40,14 @@ namespace Demo
                 Console.WriteLine($"Text stream {i}");
                 Console.WriteLine("----------------------");
                 OutputPropertyValues(MediaInfo.Text[i]);
+            }
+
+            Console.WriteLine("");
+            Console.WriteLine("Information");
+            Console.WriteLine("----------------------");
+            foreach (var s in MediaInfo.Information)
+            {
+                Console.WriteLine(s);
             }
 
             Console.WriteLine("");

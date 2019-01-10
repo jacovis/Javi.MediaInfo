@@ -56,11 +56,13 @@ Call the method that calls into the MediaInfo.dll to update all properties.
 Retrieve technical and tag data from the video or audio file:
 
     var containerFormat = MediaInfo.General.Format;
+    var videoBitRate = (MediaInfo.Video.Count > 0 ? MediaInfo.Video[0].BitRate;
 
 ### Demo application
 
 A C# .NET Core [console demo application](https://github.com/jacovis/Javi.MediaInfo/tree/master/Demo) is available which shows the usage of the package. 
 Code from this demo should not be used in production code, the code is merely to demonstrate the usage of this package.
+See [demo output](https://github.com/jacovis/Javi.MediaInfo/tree/master/Demo/demo_output.txt) for the output of the demo.
     
 ## License
 
