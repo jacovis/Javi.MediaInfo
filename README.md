@@ -56,7 +56,7 @@ Call the method that calls into the MediaInfo.dll to update all properties.
 Retrieve technical and tag data from the video or audio file:
 
     var containerFormat = MediaInfo.General.Format;
-    var videoBitRate = (MediaInfo.Video.Count > 0 ? MediaInfo.Video[0].BitRate;
+    var videoBitRate = (MediaInfo.Video.Count > 0 ? MediaInfo.Video[0].BitRate : 0);
 
 ### Demo application
 
