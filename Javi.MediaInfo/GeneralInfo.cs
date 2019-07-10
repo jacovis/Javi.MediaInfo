@@ -18,6 +18,7 @@ namespace Javi.MediaInfo
         public DateTime EncodedDate { get; set; }
         public string WritingApplication { get; set; }
         public string WritingLibrary { get; set; }
+        public string Title { get; set; }
         public int VideoStreams { get; set; }
         public int AudioStreams { get; set; }
         public int TextStreams { get; set; }

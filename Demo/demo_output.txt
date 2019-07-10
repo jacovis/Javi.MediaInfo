@@ -4,11 +4,12 @@ General
 Format=MPEG-4
 FormatVersion=
 Duration=00:00:29.5680000
-OverallBitRate=1421504
+OverallBitRate=1421728
 OverallBitRateAsString=1 422 kb/s
 EncodedDate=01-01-1970 00:00:00
 WritingApplication=Lavf53.24.2
 WritingLibrary=
+Title=Yadiyadiyadi
 VideoStreams=1
 AudioStreams=1
 TextStreams=0
@@ -82,9 +83,15 @@ File size                                : 5.01 MiB
 Duration                                 : 29 s 568 ms
 Overall bit rate mode                    : Variable
 Overall bit rate                         : 1 422 kb/s
+Movie name                               : Yadiyadiyadi
+Performer                                : Contributing Artists
+Genre                                    : Genre
+Recorded date                            : 2019
 Encoded date                             : UTC 1970-01-01 00:00:00
 Tagged date                              : UTC 2014-07-19 17:22:11
 Writing application                      : Lavf53.24.2
+Comment                                  : Comment1 / Comment2 / 333333333 / Fourth
+Xtra                                     : WM/Producer
 
 Video
 ID                                       : 1
@@ -93,7 +100,7 @@ Format/Info                              : Advanced Video Codec
 Format profile                           : Main@L3.1
 Format settings                          : CABAC / 1 Ref Frames
 Format settings, CABAC                   : Yes
-Format settings, ReFrames                : 1 frame
+Format settings, Reference frames        : 1 frame
 Codec ID                                 : avc1
 Codec ID/Info                            : Advanced Video Coding
 Duration                                 : 29 s 560 ms

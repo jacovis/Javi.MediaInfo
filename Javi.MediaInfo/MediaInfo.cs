@@ -166,6 +166,7 @@ namespace Javi.MediaInfo
             }
             this.General.WritingApplication = mediaInfo.Get(StreamKind.General, 0, "Encoded_Application/String");
             this.General.WritingLibrary = mediaInfo.Get(StreamKind.General, 0, "Encoded_Library/String");
+            this.General.Title = mediaInfo.Get(StreamKind.General, 0, "Title");
             if (Int32.TryParse(mediaInfo.Get(StreamKind.Video, 0, "StreamCount"), out int streamCount))
             {
                 General.VideoStreams = streamCount;
