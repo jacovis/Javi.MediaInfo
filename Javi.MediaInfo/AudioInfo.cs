@@ -13,8 +13,17 @@ namespace Javi.MediaInfo
         public int Id { get; set; }
         public string Format { get; set; }
         public string FormatInfo { get; set; }
+        public string FormatVersion { get; set; }
+        public string FormatProfile { get; set; }
+        public string FormatLevel { get; set; }
+        public string FormatCompression { get; set; }
+        public string FormatSettings { get; set; }
+        public string FormatSettingsMode { get; set; }
+        public string FormatSettingsModeExtension { get; set; }
         public string FormatCommercial { get; set; }
         public string CodecId { get; set; }
+        public string WritingLibrary { get; set; }
+        public string EncodingSettings { get; set; }
         public TimeSpan Duration { get; set; }
         public int BitRate { get; set; }
         public string BitRateString { get; set; }

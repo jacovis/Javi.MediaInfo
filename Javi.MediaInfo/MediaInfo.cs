@@ -166,7 +166,6 @@ namespace Javi.MediaInfo
             }
             this.General.WritingApplication = mediaInfo.Get(StreamKind.General, 0, "Encoded_Application/String");
             this.General.WritingLibrary = mediaInfo.Get(StreamKind.General, 0, "Encoded_Library/String");
-            this.General.Title = mediaInfo.Get(StreamKind.General, 0, "Title");
             if (Int32.TryParse(mediaInfo.Get(StreamKind.Video, 0, "StreamCount"), out int streamCount))
             {
                 General.VideoStreams = streamCount;
@@ -179,6 +178,24 @@ namespace Javi.MediaInfo
             {
                 General.TextStreams = streamCount;
             }
+
+            // Additions for audio files
+            this.General.AlbumPerformer = mediaInfo.Get(StreamKind.General, 0, "Album/Performer");
+            this.General.Performer = mediaInfo.Get(StreamKind.General, 0, "Performer");
+            this.General.Album = mediaInfo.Get(StreamKind.General, 0, "Album");
+            this.General.Title = mediaInfo.Get(StreamKind.General, 0, "Track");
+            if (string.IsNullOrEmpty(this.General.Title)) { this.General.Title = mediaInfo.Get(StreamKind.General, 0, "TrackName"); }
+            this.General.Genre = mediaInfo.Get(StreamKind.General, 0, "Genre");
+            if (Int32.TryParse(mediaInfo.Get(StreamKind.General, 0, "Track/Position"), out int trackPosition))
+            {
+                this.General.TrackPosition = trackPosition;
+            }
+            if (Int32.TryParse(mediaInfo.Get(StreamKind.General, 0, "Track/Position_Total"), out int totalTracks))
+            {
+                this.General.TotalTracks = totalTracks;
+            }
+            this.General.RecordedDate = mediaInfo.Get(StreamKind.General, 0, "Recorded_Date");
+            this.General.Publisher = mediaInfo.Get(StreamKind.General, 0, "Publisher");
         }
 
         /// <summary>
@@ -265,10 +282,20 @@ namespace Javi.MediaInfo
                     ai.Id = ID;
                     ai.Format = mediaInfo.Get(StreamKind.Audio, i, "Format");
                     ai.FormatInfo = mediaInfo.Get(StreamKind.Audio, i, "Format/Info");
+                    ai.FormatVersion = mediaInfo.Get(StreamKind.Audio, i, "Format_Version");
+                    ai.FormatProfile = mediaInfo.Get(StreamKind.Audio, i, "Format_Profile");
+                    ai.FormatLevel = mediaInfo.Get(StreamKind.Audio, i, "Format_Level");
+                    ai.FormatCompression = mediaInfo.Get(StreamKind.Audio, i, "Format_Compression");
+                    ai.FormatSettings = mediaInfo.Get(StreamKind.Audio, i, "Format_Settings");
+                    ai.FormatSettingsMode = mediaInfo.Get(StreamKind.Audio, i, "Format_Settings_Mode");
+                    ai.FormatSettingsModeExtension = mediaInfo.Get(StreamKind.Audio, i, "Format_Settings_ModeExtension");
                     ai.FormatCommercial = mediaInfo.Get(StreamKind.Audio, i, "Format_Commercial_IfAny");
                     if (string.IsNullOrEmpty(ai.FormatCommercial)) { ai.FormatCommercial = ai.FormatInfo; }
                     if (string.IsNullOrEmpty(ai.FormatCommercial)) { ai.FormatCommercial = mediaInfo.Get(StreamKind.Audio, i, "CodecID/Hint"); }
                     ai.CodecId = mediaInfo.Get(StreamKind.Audio, i, "CodecID");
+                    ai.WritingLibrary = mediaInfo.Get(StreamKind.Audio, i, "Encoded_Library");
+                    ai.EncodingSettings = mediaInfo.Get(StreamKind.Audio, i, "Encoded_Library_Settings");
+                    if (string.IsNullOrEmpty(ai.WritingLibrary)) { ai.WritingLibrary = mediaInfo.Get(StreamKind.Audio, i, "Encoded_Library/String"); }
                     if (Double.TryParse(mediaInfo.Get(StreamKind.Audio, i, "Duration"), NumberStyles.Any, CultureInfo.InvariantCulture, out double duration))
                     {
                         ai.Duration = TimeSpan.FromMilliseconds(duration);
