@@ -8,7 +8,8 @@ namespace Demo
     {
         static void Main(string[] args)
         {
-            string MediaInfoDLLFullName = @"D:\Projecten\Tools\MediaInfo\x64\MediaInfo.dll";
+            // change this line to the location of the  appropriate version (32 or 64 bit) of the mediainfo.dll
+            string MediaInfoDLLFullName = @".\MediaInfo.dll";
 
             MediaInfo MediaInfo = new MediaInfo(MediaInfoDLLFullName);
             MediaInfo.ReadMediaInformation(@"Sample.mp4");

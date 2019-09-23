@@ -292,6 +292,7 @@ namespace Javi.MediaInfo
                     ai.FormatCommercial = mediaInfo.Get(StreamKind.Audio, i, "Format_Commercial_IfAny");
                     if (string.IsNullOrEmpty(ai.FormatCommercial)) { ai.FormatCommercial = ai.FormatInfo; }
                     if (string.IsNullOrEmpty(ai.FormatCommercial)) { ai.FormatCommercial = mediaInfo.Get(StreamKind.Audio, i, "CodecID/Hint"); }
+                    if (string.IsNullOrEmpty(ai.FormatCommercial)) { ai.FormatCommercial = string.Format($"{ai.FormatVersion} {ai.FormatProfile}"); }
                     ai.CodecId = mediaInfo.Get(StreamKind.Audio, i, "CodecID");
                     ai.WritingLibrary = mediaInfo.Get(StreamKind.Audio, i, "Encoded_Library");
                     ai.EncodingSettings = mediaInfo.Get(StreamKind.Audio, i, "Encoded_Library_Settings");
