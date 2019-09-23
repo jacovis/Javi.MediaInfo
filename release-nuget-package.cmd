@@ -11,3 +11,5 @@ dotnet build -c Release .\Javi.MediaInfo\Javi.MediaInfo.csproj
 rem ** Push package to nuget
 rem    uses API key previously added to local git config
 nuget push .\Javi.MediaInfo\bin\Release\*.nupkg -Source https://api.nuget.org/v3/index.json
+
+pause
